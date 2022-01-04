@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBContext-Web.config Connection String" description="DBContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:s24.winhost.com;Initial Catalog=DB_140510_tfw;User ID=DB_140510_tfw_user;Password=TFW2021;Integrated Security=False; MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nathan\\source\\repos\\TWLFramework\\TWLFramework\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBContext']/@connectionString" />
+  </parameter>
+</parameters>
